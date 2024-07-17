@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styleRegis.css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <form id="registerForm">
+          <fieldset>
+            <h2 class="fs-title">Personal Details For Registration</h2>
+            <h3 class="fs-subtitle">Tell us something more about you</h3>
+            <input
+              type="text"
+              required
+              id="username"
+              name="username"
+              placeholder="Username"
+            />
+            <input
+              type="text"
+              required
+              id="email"
+              name="email"
+              placeholder="Email"
+            />
+            <input
+              type="password"
+              required
+              id="password"
+              name="password"
+              placeholder="Password"
+            />
+            <button type="submit" class="next action-button" id="btn">
+              Submit
+            </button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <script src="registerScript.js"></script>
+  </body>
+</html>
